@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <ReadyCloud_Authorize>
+            <version>0.0.1</version>
+        </ReadyCloud_Authorize>
+    </modules>
+
+    <frontend>
+        <routers>
+            <authorize>
+                <use>standard</use>
+                <args>
+                    <module>ReadyCloud_Authorize</module>
+                    <frontName>authorize</frontName>
+                </args>
+            </authorize>
+        </routers>
+    </frontend>
+</config>

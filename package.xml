@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>ReadyCloud_App</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>MIT</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>ReadyCloud Integration extension</summary>
+    <description>ReadyCloud Integration extension</description>
+    <notes>First public release</notes>
+    <authors><author><name>TrueShip LLC</name><user>trueship</user><email>magento@trueship.com</email></author></authors>
+    <date>2015-08-24</date>
+    <time>09:53:01</time>
+    <contents><target name="mage"><dir name="."><dir name="app"><dir name="code"><dir name="community"><dir name="ReadyCloud"><dir name="Authorize"><dir name="controllers"><file name="ReadyCloudController.php" hash="c26d7425301a41dad8fb34a5890486e0"/></dir><dir name="etc"><file name="config.xml" hash="2a132dbf168950a227d4f0b79344fb0f"/></dir></dir></dir></dir></dir><dir name="etc"><dir name="modules"><file name="ReadyCloud_Authorize.xml" hash="a7f3c8d4026b984fe32acfc54d3cd1f4"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
