@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/ReadyCloud_App",
+    "name": "OpenMageModuleFostering\/ReadyCloud_App",
     "type": "magento-module",
     "license": "MIT",
     "homepage": "",
     "description": "ReadyCloud Integration extension",
     "authors": [
-    {
-        "name": "TrueShip LLC",
-        "email": "magento@trueship.com"
-    }
-],
+        {
+            "name": "TrueShip LLC",
+            "email": "magento@trueship.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
